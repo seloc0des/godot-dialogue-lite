@@ -1,0 +1,49 @@
+[gd_resource type="Resource" script_class="DialogueLite" load_steps=10 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_lite/dialogue_node_lite.gd" id="1_5n1m2"]
+[ext_resource type="Script" path="res://addons/dialogue_lite/dialogue_choice_lite.gd" id="2_nykun"]
+[ext_resource type="Script" path="res://addons/dialogue_lite/dialogue_lite.gd" id="3_yktl3"]
+
+[sub_resource type="Resource" id="Resource_yur8n"]
+script = ExtResource("2_nykun")
+text = "Of course."
+next = "n2"
+
+[sub_resource type="Resource" id="Resource_xg44s"]
+script = ExtResource("2_nykun")
+text = "Maybe later."
+next = "bye"
+
+[sub_resource type="Resource" id="Resource_wulwh"]
+script = ExtResource("1_5n1m2")
+id = "n1"
+speaker = "Healer"
+text = "Oh, thank goodness! Will you help me?"
+choices = Array[ExtResource("2_nykun")]([SubResource("Resource_yur8n"), SubResource("Resource_xg44s")])
+
+[sub_resource type="Resource" id="Resource_34mkv"]
+script = ExtResource("1_5n1m2")
+id = "n2"
+speaker = "Healer"
+text = "Bless you. Bring me 3 herbs from the meadow."
+next = "n3"
+event = "give_quest:gather_herbs"
+
+[sub_resource type="Resource" id="Resource_hytdv"]
+script = ExtResource("1_5n1m2")
+id = "n3"
+speaker = "Healer"
+text = "The meadow's just east of the well."
+
+[sub_resource type="Resource" id="Resource_f51x2"]
+script = ExtResource("1_5n1m2")
+id = "bye"
+speaker = "Healer"
+text = "...I understand. Come back if you change your mind."
+
+[resource]
+script = ExtResource("3_yktl3")
+id = "healer_intro"
+title = "Healer Intro"
+entry = "n1"
+nodes = Array[ExtResource("1_5n1m2")]([SubResource("Resource_wulwh"), SubResource("Resource_34mkv"), SubResource("Resource_hytdv"), SubResource("Resource_f51x2")])
