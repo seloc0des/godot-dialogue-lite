@@ -19,4 +19,4 @@ that get painful to hand-roll.
 
 Lite conversations keep working while Dialogue (Lite) stays installed. They don't import into the full version, which has its own resources (`Dialogue`, `DialogueNode`, `DialogueChoice`) and the `DialogueManager` autoload in place of `DialoguesLite`. You rebuild each conversation in the full dock. The id, speaker, text, next and choices fields keep their names, and the Lite `event` string becomes actions.
 
-Get it on itch.io. MIT-licensed; use it in commercial projects.
+Get it on itch.io. Use it in any game you make, commercial or not.

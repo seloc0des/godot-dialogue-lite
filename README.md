@@ -73,7 +73,7 @@ godot --headless --path . res://tools/verify.tscn   # prints a transcript + PASS
 
 ## Upgrade
 
-Outgrown Lite? **Dialogue (Pro)** on itch. MIT-licensed; use it in commercial games.
+Outgrown Lite? **Dialogue (Pro)** on itch. Use it in any game you make, commercial or not.
 
 
 ## Part of a family
