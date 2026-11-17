@@ -45,7 +45,7 @@ func _on_choices(choices: PackedStringArray) -> void:
 		# A keyboard or gamepad player needs a focused button: this node swallows
 		# Enter while choices are up, so without focus only the mouse could answer.
 		# The arrows then move between choices and Enter or Space picks, the way the
-		# Pro box works. Deferred so it's laid out first, and by id because the
+		# The full version box works. Deferred so it's laid out first, and by id because the
 		# conversation can end, freeing the buttons, before the call runs.
 		_focus_choice.call_deferred(first.get_instance_id())
 

@@ -6,7 +6,7 @@ extends Node
 # DialogueBoxLite renders it either way.
 #
 # This is the **working core** of the selodev Dialogue addon, authoring dock and
-# Setup tab included. What the paid Pro tier adds:
+# Setup tab included. What the full version adds:
 #
 #   * Conditions / flags / variables
 #   * Direct quest & inventory hooks

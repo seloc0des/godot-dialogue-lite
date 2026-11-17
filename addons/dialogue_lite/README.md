@@ -5,7 +5,7 @@ lines, player choices, and event hooks — and show them with a drop-in dialogue
 box. No code required to display a conversation.
 
 Part of the **SELODEV** no-code system line. This is the free core, with its own
-authoring dock and a Setup tab. **Dialogue (Pro)** adds conditions, flags &
+authoring dock and a Setup tab. **The full Dialogue** adds conditions, flags &
 variables, direct quest/inventory hooks, portraits, typewriter text,
 localization, save-aware state, and conditions and actions in the dock.
 
@@ -44,7 +44,7 @@ A `DialogueLite` is an `entry` node id + a list of `DialogueNodeLite`:
 - **next** — the node to continue to (empty ends the conversation).
 - **event** — an optional plain string fired when the node shows, e.g.
   `give_quest:gather_herbs`. Your game listens and decides what it means. In
-  Lite that takes a line of code. Pro runs actions from the dock:
+  Lite that takes a line of code. The full version runs actions from the dock:
 
 ```gdscript
 DialoguesLite.event_fired.connect(func(e):
@@ -73,7 +73,7 @@ godot --headless --path . res://tools/verify.tscn   # prints a transcript + PASS
 
 ## Upgrade
 
-Outgrown Lite? **Dialogue (Pro)** on itch. Use it in any game you make, commercial or not.
+Outgrown Lite? **The full Dialogue** on itch. Use it in any game you make, commercial or not.
 
 
 ## Part of a family

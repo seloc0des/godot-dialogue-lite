@@ -1,10 +1,10 @@
-# Upgrading to Dialogue (Pro)
+# Upgrading to the full Dialogue
 
 Dialogue (Lite) is the free, working core: branching conversations, a drop-in box,
-and per-node `event` hooks. When you outgrow it, **Dialogue (Pro)** adds the parts
+and per-node `event` hooks. When you outgrow it, **the full Dialogue** adds the parts
 that get painful to hand-roll.
 
-| | Lite (free) | Pro |
+| | Lite (free) | Full |
 |---|---|---|
 | Speaker lines + player choices | ✅ | ✅ |
 | Drop-in dialogue box | ✅ | ✅ (portraits, typewriter, theming) |

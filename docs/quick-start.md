@@ -102,4 +102,4 @@ buttons when a node has choices. Change the advance action on the box's
 - Branch by giving a node multiple choices with different `next` ids.
 - Chain into quests: fire `give_quest:<id>` and call `QuestsLite.start_quest(...)`.
 - Conditions, flags, portraits, typewriter text, save-aware state, and conditions
-  and actions in the dock come with **Dialogue (Pro)**.
+  and actions in the dock come with **the full Dialogue**.

@@ -5,7 +5,7 @@ extends Resource
 ## player to advance and then jumps to `next` (empty `next` ends the dialogue).
 ## `event` (optional) is a plain string fired when this node shows — the seam
 ## other systems listen on, e.g. "give_quest:gather_herbs". Lite keeps it a bare
-## string; the Pro tier wires it to quests/inventory/flags directly.
+## string; the full version wires it to quests/inventory/flags directly.
 @export var id: String = ""
 @export var speaker: String = ""
 @export_multiline var text: String = ""
